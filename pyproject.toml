@@ -125,5 +125,10 @@ max-line-length = 88
 
 [tool.setuptools_scm]
 
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning:pyogrio.*",
+]
+
 [project.urls]
 Homepage = "https://github.com/opengeos/segment-geospatial"

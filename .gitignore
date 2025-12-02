@@ -126,3 +126,7 @@ docs/examples/segment.cpg
 docs/examples/segment.prj
 docs/changelog_update.md
 docs/examples/landsat_ts.zip
+
+
+.github/instructions/kluster-code-verify.instructions.md
+.kluster
