@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "segment-geospatial"
-version = "0.13.0"
+version = "0.15.1"
 dynamic = [
     "dependencies",
 ]
@@ -73,6 +73,10 @@ samgeo3 = [
     "scikit-learn",
     "scikit-image",
     "transformers",
+    "buildingregulariser",
+    "leafmap",
+    "localtileserver",
+    "spacy"
 ]
 text = [
     "segment_geospatial[samgeo2]",
@@ -103,7 +107,7 @@ dependencies = {file = ["requirements.txt"]}
 universal = true
 
 [tool.bumpversion]
-current_version = "0.13.0"
+current_version = "0.15.1"
 commit = true
 tag = true
 

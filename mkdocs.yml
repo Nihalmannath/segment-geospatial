@@ -70,15 +70,22 @@ nav:
           - examples/tree_mapping.ipynb
           - examples/sam3_image_segmentation.ipynb
           - examples/sam3_image_segmentation_jpg.ipynb
+          - examples/sam3_interactive.ipynb
+          - examples/sam3_batch_segmentation.ipynb
+          - examples/sam3_video_segmentation.ipynb
+          - examples/sam3_automated_segmentation.ipynb
+          - examples/image_captioning.ipynb
     - Workshops:
           - workshops/purdue.ipynb
           - workshops/cn_workshop.ipynb
           - workshops/IPPN_2024.ipynb
           - workshops/AIforGood_2025.ipynb
     - API Reference:
+          - caption module: caption.md
           - common module: common.md
           - samgeo module: samgeo.md
           - samgeo2 module: samgeo2.md
+          - samgeo3 module: samgeo3.md
           - fast_sam module: fast_sam.md
           - hq_sam module: hq_sam.md
           - text_sam module: text_sam.md
